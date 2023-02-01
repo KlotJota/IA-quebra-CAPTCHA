@@ -1,7 +1,7 @@
 # IA-quebra-CAPTCHA
 <b>O arquivo final para a execução do projeto é o "usando_captcha.py"</b>
 
-Nesse projeto em Python, foi utilizado a rede neural Keras com o intuito de fazer com que a IA aprenda a ler prints de CAPTCHA em texto e decifrar as letras.
+Nesse projeto em Python, foi utilizado a biblioteca de rede neural Keras com o intuito de fazer com que a IA aprenda a ler prints de CAPTCHA em texto e decifrar as letras.
 
 Para a construção desse projeto, de início é necessário realizar o tratamento das imagens de CAPTCHA, eliminando o máximo de ruídos que a imagem possui e 
 tornando as letras o mais visíveis possível. Para isso, foram utilizados bibliotecas para o tratamento dessas imagens e de arquivos, tais como OpenCV, imutils, pickle, 
