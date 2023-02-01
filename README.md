@@ -26,7 +26,7 @@ que o código usou de base para o recorte das letras. Com isso, execute o códig
 
 Com as letras separadas e já na pasta "letras", agora deve ser realizado a criação da base de dados. Para isso, foi utilizado um processo manual, então notoriamente exigirá
 mais tempo. Crie uma pasta chama "base_letras" e dentro desta pasta crie uma pasta para cada letra do alfabeto (números também, caso você desejar tratar CAPTCHAS que contém
-número). Após isso, você recortará todas as letras contidas na pasta "letras" e trará para essa nova pasta, ela servirá como aprendizado para a IA.
+número). Após isso, copie todas as letras contidas na pasta "letras" e trará para essa nova pasta, ela servirá como aprendizado para a IA.
 
 # Treino da IA
 
