@@ -11,9 +11,9 @@ De modo geral, a rede neural utilizada no projeto aprende através de uma base d
 contidos nessa base, mais acertos a IA irá obter no fim.
 
 Abaixo, deixarei instruçõe sobre a criação de pastas relacionadas ao projeto, desde a criação da base de dados até sua execução. Caso você queira pular essa parte e
-utilizar o modelo de IA treinado que deixei pronto nos arquivos, crie apenas uma pasta chamada "captchas_resolver" e coloque nela a imagem de CAPTCHA que você deseja resolver.
+utilizar o modelo de IA treinado que deixei pronto nos arquivos, crie apenas uma pasta chamada "captchas_resolver" e coloque nela a imagem (ou imagens) de CAPTCHA que você deseja resolver.
 
-# criação da base de dados da IA
+# Criação da base de dados da IA
 
 O arquivo "modelo_CAPTCHA_treinado.hdf5" possui o estado da rede neural treinada com uma base de dados relativamente pequena, portanto a quantidade de acertos não chega 
 a 100%. Caso desejar, adicione prints de CAPTCHA à uma pasta de base de dados (sugiro o uso do nome originalmente usado: bdcaptcha), crie também uma pasta onde as imagens
@@ -28,13 +28,13 @@ Com as letras separadas e já na pasta "letras", agora deve ser realizado a cria
 mais tempo. Crie uma pasta chama "base_letras" e dentro desta pasta crie uma pasta para cada letra do alfabeto (números também, caso você desejar tratar CAPTCHAS que contém
 número). Após isso, você recortará todas as letras contidas na pasta "letras" e trará para essa nova pasta, ela servirá como aprendizado para a IA.
 
-# treino da IA
+# Treino da IA
 
 Com a base dados já criada e todos os cuidados tomados, execute o arquivo "treina_modelo", ele irá treinar a IA utilizando como base de ensino todos os arquivos presentes
 na pasta "base_letras" e criará um arquivo originalmente chamado "modelo_CAPTCHA_treinado.hdf5". Ele será o último estado da nossa IA e será utilizado para decifrar os 
 CAPTCHAS daqui pra frente.
 
-# execução do projeto
+# Execução do projeto
 
 Por fim, crie uma última pasta chamada "captchas_resolver" e coloque dentro dela toda e qualquer imagem de CAPTCHA que você querer resolver. Após, execute o arquivo 
 "usando_captcha.py" e pronto, ele realizará o tratamento completo da imagem e irá decifrar as letras presentes na imagem e retorná-las no terminal.
